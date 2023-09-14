@@ -1,0 +1,15 @@
+{
+  "name": "coding-dojo",
+  "version": "1.0.0",
+  "description": "Practices to improve teams' ability to write software",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "dev": "jest --watch",
+    "cov": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
