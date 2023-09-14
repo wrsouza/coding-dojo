@@ -7,7 +7,7 @@
   "scripts": {
     "test": "jest",
     "dev": "jest --watch",
-    "cov": "jest --coverage"
+    "cov": "jest --collectCoverage && open coverage/lcov-report/index.html"
   },
   "devDependencies": {
     "jest": "^29.7.0"
