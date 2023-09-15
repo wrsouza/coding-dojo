@@ -1,5 +1,41 @@
 const { sum1 } = require('./index.js')
 
-test('adds 1 to value', () => {
+//papel
+test('papel x tesoura', () => {
+    expect(sum1(2)).toBe(3);
+  });
+
+  test('papel x tesoura', () => {
+    expect(sum1(2)).toBe(3);
+  });
+
+  test('papel x papel', () => {
+    expect(sum1(2)).toBe(3);
+  });
+
+  //pedra
+  test('pedra x tesoura', () => {
+    expect(sum1(2)).toBe(3);
+  });
+
+  test('pedra x tesoura', () => {
+    expect(sum1(2)).toBe(3);
+  });
+
+  test('pedra x pedra', () => {
+    expect(sum1(2)).toBe(3);
+  });
+
+  //tesoura
+
+  test('tesoura x papel', () => {
+    expect(sum1(2)).toBe(3);
+  });
+
+  test('tesoura x pedra', () => {
+    expect(sum1(2)).toBe(3);
+  });
+
+  test('tesoura x tesoura', () => {
     expect(sum1(2)).toBe(3);
   });
