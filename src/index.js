@@ -1,7 +1,14 @@
-function sum1(number){
-    return number +1
+const papel = 1;
+const tesoura = 2;
+const pedra = 3;
+
+function Jogar(valor1, valor2){
+    return valor1; 
 }
 
 module.exports ={
-    sum1
+    papel,
+    tesoura,
+    pedra,
+    Jogar
 }

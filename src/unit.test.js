@@ -1,16 +1,16 @@
-const { sum1 } = require('./index.js')
+const { Jogar, pedra, papel, tesoura } = require('./index.js')
 
 //papel
 test('papel x tesoura', () => {
-    expect(sum1(2)).toBe(3);
+    expect(Jogar(papel, tesoura)).toBe(tesoura);
   });
 
   test('papel x tesoura', () => {
-    expect(sum1(2)).toBe(3);
+    expect(Jogar(papel, tesoura)).toBe(papel);
   });
 
   test('papel x papel', () => {
-    expect(sum1(2)).toBe(3);
+    expect(Jogar(2)).toBe(3);
   });
 
   //pedra
@@ -27,7 +27,6 @@ test('papel x tesoura', () => {
   });
 
   //tesoura
-
   test('tesoura x papel', () => {
     expect(sum1(2)).toBe(3);
   });
